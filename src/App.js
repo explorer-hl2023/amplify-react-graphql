@@ -2,6 +2,16 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+function Mybutton(){
+
+  return(
+
+    <button>
+      I'm a dummy button
+    </button>
+  )
+}
+
 function App() {
   return (
     <div className="App">
@@ -11,7 +21,8 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <h1>Hello from V2</h1>
-        <h2>Hello from v3333</h2>
+        <h2>Hello from V3</h2>
+        <Mybutton />
         <a
           className="App-link"
           href="https://reactjs.org"
